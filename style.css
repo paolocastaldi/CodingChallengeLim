@@ -1,0 +1,107 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.container{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 100px;
+
+}
+
+header{
+  text-align: center;
+  color: #04dc04;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+nav{
+  padding: 10px;
+  text-align: center;
+  background-color: #04dc04; /*Lime green*/
+  border-radius: 1px;
+}
+
+nav > button{
+  background-color: white; /*Lime green*/
+  border-color: white;
+  border-style: solid;
+  color: #196719;
+  font-size: 10px;
+  padding: 2px ;
+  text-align: center;
+  border-radius: 2px;
+  transition-duration: 0.6s;
+}
+
+nav > button:hover{
+  background-color: #04dc04; /*Lime green*/
+  color: white;
+}
+
+main{
+  color: white;
+}
+
+.scooter{
+  margin-top: 20px;
+}
+
+.scooter > .scooter-name{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.scooter > .distance{
+  font-weight: 300;
+  display: block;
+}
+
+.arrow:before{
+  content: "\21A6"; /*Arrow char*/
+}
+
+
+/* Barre di carica */
+
+.full-bar{
+  width: 80%;
+  height: 25px;
+  text-align: left;
+  background-color: #1ec31e; /*Green*/
+  border-radius: 6px;
+  box-shadow: -3px -3px 9px #1ec31e inset ; /*Dark green*/
+}
+
+.med-bar{
+  width: 50%;
+  height: 25px;
+  text-align: left;
+  background-color: #f5b453; /*Yellow*/
+  border-radius: 6px;
+  box-shadow: -3px -3px 9px #f5b453 inset ; /*Dark yellow*/
+}
+
+.low-bar{
+  width: 20%;
+  height: 25px;
+  text-align: left;
+  background-color: #be4141; /*Red*/
+  border-radius: 6px;
+  box-shadow: -3px -3px 9px #be4141 inset ; /*Dark red*/
+}
